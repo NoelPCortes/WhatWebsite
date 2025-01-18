@@ -1,9 +1,9 @@
 body {
-    background-color: #004953;
+    background-color: #87986a;
 }
 
 .border1 { 
-    background: #f9f07e;
+    background: #004953;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -12,7 +12,7 @@ body {
 }
 
 .border1 h1 {
-    color: #004953;
+    color: #f9f07e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 225%;
 }
