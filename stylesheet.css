@@ -2,7 +2,7 @@ body {
     background-color: #004953;
 }
 
-.border { 
+.border1 { 
     background: #f9f07e;
     display: flex;
     justify-content: center;
@@ -11,24 +11,54 @@ body {
     padding: 5px;
 }
 
-.border h1 {
+.border1 h1 {
     color: #004953;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 225%;
 }
 
-#navigation{
-    position: relative;
-    margin: 10px;
-    background: #004953;
-    justify-content: left;
-    align-content: left;
+.border2 { 
+    background: #f9f07e;
     display: flex;
+    justify-content: center;
+    align-content: center;
     border-radius: 10px;
     padding: 5px;
 }
 
-#navigation h1{
+.border2 h1 {
+    color: #004953;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 225%;
+}
+
+#navigation {
+    position: relative;
+    margin: 10px 20px 10px 5px;
+    background: #004953;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#navigation h1 {
+    color: #f9f07e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 225%;
+}
+
+#content {
+    position: relative;
+    margin: 10px 20px 10px 5px;
+    background: #004953;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 1050px;
+}
+
+#content h1 {
     color: #f9f07e;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 225%;
