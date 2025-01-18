@@ -1,0 +1,35 @@
+body {
+    background-color: #004953;
+}
+
+.border { 
+    background: #f9f07e;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.border h1 {
+    color: #004953;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 225%;
+}
+
+#navigation{
+    position: relative;
+    margin: 10px;
+    background: #004953;
+    justify-content: left;
+    align-content: left;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#navigation h1{
+    color: #f9f07e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 225%;
+}
