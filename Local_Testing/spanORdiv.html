@@ -59,7 +59,7 @@
 
     <br><br><br>
 
-    <dl>
+    <dl style="background-color:green; border: 2px solid";>
         <dt-1>noel arcenio
             <dd>Those are firstname and secondname</dd>
         </dt-1>
@@ -73,6 +73,96 @@
             <dd>It's a suffix</dd>
         </dt-4>
     </dl>
+
+    <h3>Store Hours</h3>
+
+    <table border="1" style="width: 50%; background-color: black;">
+        <tr align="center" style="width: 50%; background-color: lightgreen;">
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+        </tr>
+        <tr align="center" style="width: 50%; background-color: lightblue;">
+            <td>Closed</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>10-2</td>
+        </tr>
+    </table>
+
+    <button onclick="myFunction()" style="background-color: lightblue; font-size: 25px; color:lightcoral"><img src="https://scontent.fceb1-4.fna.fbcdn.net/v/t1.15752-9/393918854_1377380326467053_8083113317102983767_n.png?stp=dst-png_s480x480&_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeECWayFgu6SG-i4ZonwuH0tFTSsYBXfvUQVNKxgFd-9ROzsPNX2zQDCqbeUJI8HhXWhJf7DhRwkaU7ImZsMMVzH&_nc_ohc=dFJm7p563OEQ7kNvgFney-I&_nc_zt=23&_nc_ht=scontent.fceb1-4.fna&oh=03_Q7cD1gFMKas-WmKukiOvrWA1na3DoXCBkxmqphLooWeTuAi3AQ&oe=67B4666B" alt="" style="font-size: 25px; color: lightcoral; height: 50px;"></button>
+
+    <p id="greeting">Hello</p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("greeting").innerHTML = "Goodbye!";
+        }
+    </script>
+
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Username" minlength="6" maxlength="20"><!--Needed before submitting--> <br>
+
+        <label for="password">password:</label>
+        <input type="password" name="" id="password"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" placeholder="hello@gmail.com"><br>
+
+        <label for="birthday">Birthdate:</label>
+        <input type="date" name="" id="birthday"><br>
+
+        <label for="quantity">quantity:</label>
+        <input type="number" name="" id="quantity" min="0" value="1"><br>
+
+        <label for="phone">Phone no. :</label>
+        <input type="number" name="" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <label for="title">Title:</label>
+        <label for="Mr">Mr.</label>
+        <input type="radio" name="title" id="Mr">
+        <label for="Ms">Ms.</label>
+        <input type="radio" name="title" id="Ms">
+        <label for="PhD">PhD.</label>
+        <input type="radio" name="title" id="PhD"><br>
+
+        <label for="payment">Payment</label>
+        <select id="payment">
+            <option value="Visa" class="payment1">Visa</option>
+            <option value="MasterCard" class="payment2">Mastercard</option>
+            <option value="GiftCard" class="payment3">GiftCard</option>
+        </select><br>
+
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" name="" id="subscribe"><br>
+
+        <label for="comment">comment:</label>
+        <textarea name="" id="comment" rows="5" cols="40"></textarea><br>
+
+        <label for="file">file:</label>
+        <input type="file" name="" id="file" accept="image/png, image/jpeg"><br>
+
+        <input type="reset" name="" id="">
+        <input type="submit" name="" id="">
+    </form>
+
+    <br><br><br>
+
+    <footer>
+        <hr>
+        author: By Someone <br>
+        &copy copyright reserved
+        <a href="brocode@fake.com">brocode@fake.com</a>
+    </footer>
 
 </body>
 </html>
