@@ -1,65 +1,53 @@
 body {
     background-color: #87986a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f9f07e;
 }
 
-.border1 { 
+.inner-border-1 {
+    background: #004953;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    margin: -10px -10px -10px -10px;
+}
+
+.inner-border-2 {
     background: #004953;
     display: flex;
     justify-content: center;
     align-content: center;
-    border-radius: 10px;
-    padding: 5px;
+    margin: 10px -10px -10px -10px;
+    border-style: hidden;
+    position: sticky;
 }
 
-.border1 h1 {
-    color: #f9f07e;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 225%;
+.inner-border-2 div {
+    display: flex;
+    background-color: #004953;
 }
 
-.border2 { 
+button:before {
+    background-color: #f9f07e;
+    height: 25px;
+    width: 25px;
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+}
+
+button:hover::before {
+    top: -30px;
+    left: -30px
+}
+
+button:active::before {
+    background: #004953;
+    transition: backgrond 0s;
+}
+
+img {
     background: #f9f07e;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.border2 h1 {
-    color: #004953;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 225%;
-}
-
-#navigation {
-    position: relative;
-    margin: 10px 20px 10px 5px;
-    background: #004953;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-
-#navigation h1 {
-    color: #f9f07e;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 225%;
-}
-
-#content {
-    position: relative;
-    margin: 10px 20px 10px 5px;
-    background: #004953;
-    border-radius: 10px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 1050px;
-}
-
-#content h1 {
-    color: #f9f07e;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 225%;
+    max-height: 25px;
+    max-width: 25px;
 }
