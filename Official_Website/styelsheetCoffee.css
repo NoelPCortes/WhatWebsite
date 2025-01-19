@@ -17,12 +17,13 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 10px -10px -10px -10px;
-    border-style: hidden;
+    margin: 10px -10px 10px -10px;
+    border-style: groove;
     position: sticky;
 }
 
 .inner-border-2 div {
+    margin: 0px 10px 0px 10px;
     border-radius: 20px;
     display: flex;
     background-color: #004953;
@@ -47,7 +48,9 @@ button:active::before {
     transition: backgrond 0s;
 }*/
 
+
 img {
-    max-height: 25px;
-    max-width: 25px;
+    height: 25px;
+    width: 25px;
 }
+

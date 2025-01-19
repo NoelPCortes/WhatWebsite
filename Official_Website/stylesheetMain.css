@@ -1,0 +1,106 @@
+body {
+    background-color: #87986a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f9f07e;
+}
+
+.inner-border-1 {
+    background: #004953;
+    display: grid;
+    justify-content: center;
+    position: relative;
+    margin: -10px -10px -10px -10px;
+}
+
+.inner-border-2 {
+    background: #004953;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px -10px 10px -10px;
+    border-style: groove;
+    position: sticky;
+}
+
+.inner-border-2 div {
+    margin: 0px 10px 0px 10px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #004953;
+}
+
+/*button:before {
+    background-color: #f9f07e;
+    height: 25px;
+    width: 25px;
+    top: 100%;
+    left: 100%;
+    transition: 0.7s;
+}
+
+button:hover::before {
+    top: -30px;
+    left: -30px
+}
+
+button:active::before {
+    background: #004953;
+    transition: backgrond 0s;
+}*/
+
+
+img {
+    height: 25px;
+    width: 25px;
+}
+
+#content_description {
+    border-radius: 20px;
+    margin: 20px 15px 15px 15px;
+    display: grid;
+    background: #f9f07e;
+    position: relative;
+}
+
+#content_description div-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 20px 15px 15px 15px;
+    display: grid;
+    background: #004953;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.content-of-website div {
+    background: #004953;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
+    border-style: dotted;
+    border-radius: 10px;
+    margin: 20px 15px 15px 15px;
+}
+
+#content_description div-2 {
+    border-radius: 10px;
+    margin: 10px 15px 15px 15px;
+    display: grid;
+    background: #004953;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+#content_description div-3 {
+    border-radius: 10px;
+    margin: 10px 15px 15px 15px;
+    display: grid;
+    background: #004953;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
