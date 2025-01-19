@@ -23,11 +23,12 @@ body {
 }
 
 .inner-border-2 div {
+    border-radius: 20px;
     display: flex;
     background-color: #004953;
 }
 
-button:before {
+/*button:before {
     background-color: #f9f07e;
     height: 25px;
     width: 25px;
@@ -44,10 +45,9 @@ button:hover::before {
 button:active::before {
     background: #004953;
     transition: backgrond 0s;
-}
+}*/
 
 img {
-    background: #f9f07e;
     max-height: 25px;
     max-width: 25px;
 }
