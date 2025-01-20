@@ -1,8 +1,40 @@
-main {
-    background: cyan;
-    display:grid;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+body {
+    font-family: verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0px;
+}
+
+h1{
+    text-shadow: 3px 5px 5px lightblue, -3px -5px 5px lightcoral;/*horizontal, vertical, blur, color*/
+}
+
+#boxEx{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.box{
+    border: 5px solid;
+    font-size: 2em;
+    width: 250px;
+    height: 250px;
+}
+
+#box1{
+    background-color: red;
+    margin-left: auto;
+}
+
+#box2{
+    background-color: blue;
+    margin: auto;
+}
+
+#img1{
+    float: left;
+    margin-right: 10px;
 }
