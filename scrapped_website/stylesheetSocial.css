@@ -29,6 +29,10 @@ body {
     background-color: #004953;
 }
 
+button{
+    background-color: #f9f07e;
+}
+
 /*button:before {
     background-color: #f9f07e;
     height: 25px;

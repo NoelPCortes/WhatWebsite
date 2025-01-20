@@ -12,7 +12,7 @@ body {
     margin: -10px -10px -10px -10px;
 }
 
-.inner-border-2 {
+body .inner-border-2 {
     background: #004953;
     display: flex;
     justify-content: center;
@@ -20,6 +20,7 @@ body {
     margin: 10px -10px 10px -10px;
     border-style: groove;
     position: sticky;
+    top: 0%;
 }
 
 .inner-border-2 div {
@@ -27,6 +28,10 @@ body {
     border-radius: 20px;
     display: flex;
     background-color: #004953;
+}
+
+button{
+    background-color: #f9f07e;
 }
 
 /*button:before {
@@ -74,18 +79,31 @@ img {
     position: relative;
 }
 
-.content-of-website div {
-    background: #004953;
-    display: flexbox;
+
+/*Unfinished*/
+.content-of-website {
+    background-color: lightcoral;
+    padding-bottom: 100%;
+    margin: 0px 0px 15px 0px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: 'sidebar main';
     justify-content: center;
-    align-items: center;
-    align-content: start;
-    border-style: dotted;
-    border-radius: 10px;
-    margin: 20px 15px 15px 15px;
+    align-content: center;
+    overflow: visible;
 }
 
-#content_description div-2 {
+.content-of-website div {
+    background: #004953;
+    display: flex;
+    grid-area: main;
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0px 15px 15px 15px;
+}
+
+/*#content_description div-2 {
     border-radius: 10px;
     margin: 10px 15px 15px 15px;
     display: grid;
